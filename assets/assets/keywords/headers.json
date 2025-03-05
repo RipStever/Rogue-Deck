@@ -1,0 +1,6 @@
+{
+  "color": "#000000",
+  "patterns": [
+    "(?:Note|Special|Mana|Requirement|Drawback|Scene):"
+  ]
+}

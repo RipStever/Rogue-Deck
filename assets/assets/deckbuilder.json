@@ -1,0 +1,284 @@
+{
+  "actionCards": [
+    {
+      "id":1,
+      "name": "Double Move",
+      "type": "Movement",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "You can use two Basic Moves.",
+      "metadata": "2 Basic Moves"
+    },
+    {
+      "id":2,
+      "name": "Combo",
+      "type": "Attack",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "You can use a Tier 2 Attack/Special Ability.\n\nYou can use a Tier 1 Attack/Special Ability.\n\nOnly one of these Abilities can be a damaging Ability.",
+      "metadata": "1 Tier 2 Attack or Special & 1 Tier 1 Attack or Special"
+    },
+    {
+      "id":3,
+      "name": "Hit the Deck",
+      "type": "Movement",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "Reaction: Dodge\n\nRequirement: You must NOT be Prone nor Immobilized.\n\nYou fall prone and reduce the incoming attack by 200 damage.",
+      "metadata": "None"
+    },
+    {
+      "id":4,
+      "name": "Assisted Attack",
+      "type": "Special",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "Scene:\n\nYou designate a creature in the scene. The target is dealt 'x' damage where 'x' equals the number of Heroes attacking the target.\n\nNote: For the purpose of triggering events, none of this damage is considered to be coming from a character.",
+      "metadata": "None"
+    },
+    {
+      "id":5,
+      "name": "Dangerous Opportunity",
+      "type": "Attack",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "You can use a Tier 2 Attack Ability.\n\nYou gain a Basic Move as part of this attack and you MUST move a least 1m.\n\nDrawback: You cannot benefit from Cover.",
+      "metadata": "1 Tier 2 Attack & 1 Basic Move"
+    },
+    {
+      "id":6,
+      "name": "Block Strike",
+      "type": "Attack",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "Reaction: Block\n\nRequirement: You are targeted by a Melee Attack.\n\nYou reduce the triggering attack to 50% damage and can use a Tier 1 Attack against the triggering creature.\n\nSpecial: If you have Armor, you gain Total Damage Reduction instead.",
+      "metadata": "None"
+    },
+    {
+      "id":7,
+      "name": "Hunker Down",
+      "type": "Movement",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "Reaction: Block\n\nRequirement: You are attacked.\n\nYou reduce the triggering attack by 50%.\n\nSpecial: If you have Armor, you gain Total Damage Reduction instead.\n\nSpecial: If you are behind cover, the attack misses you.",
+      "metadata": "None"
+    },
+    {
+      "id":8,
+      "name": "Dodge",
+      "type": "Movement",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "Reaction: Dodge\n\nRequirement: You must be targeted by a Melee Attack.\n\nThe attack misses you.",
+      "metadata": "None"
+    },
+    {
+      "id":9,
+      "name": "Running Dodge",
+      "type": "Movement",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "All ranged damage dealt to you on the next enemy turn is reduced by 50%. This does NOT stack with Cover.\n\nSpecial: If you moved at least 5m on your turn, this card is Free to Play.\n\nSpecial: If you have Armor, you gain Total Damage Reduction instead.",
+      "metadata": "None"
+    },
+    {
+      "id":10,
+      "name": "Lesser Move",
+      "type": "Movement",
+      "category": "Basic",
+      "cost": 0,
+      "max": 5,
+      "effect": "You can use a Tier 1 Movement Ability.",
+      "metadata": "1 Tier 1 Movement"
+    },
+    {
+      "id":11,
+      "name": "Lesser Attack",
+      "type": "Attack",
+      "category": "Basic",
+      "cost": 0,
+      "max": 5,
+      "effect": "You can use a Tier 1 Attack Ability.",
+      "metadata": "1 Tier 1 Attack"
+    },
+    {
+      "id":12,
+      "name": "Lesser Special",
+      "type": "Special",
+      "category": "Basic",
+      "cost": 0,
+      "max": 5,
+      "effect": "You can use a Tier 1 Special Ability.",
+      "metadata": "1 Tier 1 Special"
+    },
+    {
+      "id":13,
+      "name": "Lucky",
+      "type": "Special",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "Reaction: Special\n\nDraw 5 cards and Discard 5 cards. This card is Free to Play.\n\nCards gain in this manner cannot be used on the same Enemy turn they were drawn on.",
+      "metadata": "None"
+    },
+    {
+      "id":14,
+      "name": "Utility Action",
+      "type": "Special",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "You can use 2 Tier 1 Special/Attack/Movement Abilities that do NOT deal damage.",
+      "metadata": "2 Tier 1 Special or Attack or Movement"
+    },
+    {
+      "id":15,
+      "name": "Double Attack",
+      "type": "Attack",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "You can use 2 Tier 1 Attack Abilities.",
+      "metadata": "2 Tier 1 Attack"
+    },
+    {
+      "id":16,
+      "name": "Charge",
+      "type": "Attack",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "You can take a Basic Move then use a Tier 1 Attack Ability. You MUST move at leat 1m and you cannot benifit from Cover this turn.\n\nSpecial: If the Attack Action is a Ranged attack, you can move AFTER the attack.\n\nSpecial: If the Attack Action is a Melee Attack, use a Tier 2 Attack Ability instead.",
+      "metadata": "1 Tier 1 Attack & 1 Basic Move"
+    },
+    {
+      "id":17,
+      "name": "Quick Reload",
+      "type": "Attack",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "You discard all Reload cards in your hand. This card is Free to Play.\n\nSpecial: If you have no Reload cards in your hand, gain 1 Surge Charge instead.",
+      "metadata": "None"
+    },
+    {
+      "id":18,
+      "name": "Surge Charge",
+      "type": "Attack",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "You gain 1 Surge Charge.\n\nSpecial: If you dealt damage this turn, this card is Free to Play.\n\nSpecial: This is NOT an Action.",
+      "metadata": "None"
+    },
+    {
+      "id":19,
+      "name": "Borrowed Destiny",
+      "type": "Special",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "You can use a Tier 1 Special Ability.\n\nYou can pay 1 point of Surge Charge to increase this to a Tier 2 Special Ability.",
+      "metadata": "1 Tier 1 Special"
+    },
+    {
+      "id":20,
+      "name": "Omni Action",
+      "type": "Special",
+      "category": "Rare",
+      "cost": 2,
+      "max": 3,
+      "effect": "You can use any Tier 1 Ability.\n\nSpecial: If this is the only Action you take on your turn, you can use a Tier 2 Action instead.",
+      "metadata": "1 Tier 1 Special or Attack or Movement"
+    },
+    {
+      "id":21,
+      "name": "Magic Bullet",
+      "type": "Special",
+      "category": "Legendary",
+      "cost": 5,
+      "max": 1,
+      "effect": "This card is Free to Play.\n\nPut this card in your Sideboard. While this card is in your sideboard, you can Upgrade the reuslt of any Chance Card, if the Card was a Miss or Partial Hit, it becomes a Hit. If the Chance Card was a Hit, then it becomes a Crit. When you use this effect, remove this card from your Sidebar and into the discard pile.",
+      "metadata": "None"
+    },
+    {
+      "id":22,
+      "name": "Mobile Dodge",
+      "type": "Movement",
+      "category": "Legendary",
+      "cost": 5,
+      "max": 1,
+      "effect": "Reaction: Dodge\n\nTrigger: Any reason.\n\nYou use a Tier 1 Movement Ability and move at least 1m. If the Trigger was an attack, you do not take damage from the attack unless you are still within an AoE.",
+      "metadata": "None"
+    },
+    {
+      "id":23,
+      "name": "Assault",
+      "type": "Attack",
+      "category": "Mythic",
+      "cost": 0,
+      "max": 0,
+      "effect": "When you draw this card, draw an additional card.\n\nThis card does NOT count toward your Hand Size.\n\nYou can use a Tier 1 Attack Ability.\n-OR-\nYou can Discard this card to gain Advantage on an attack. You can discard AFTER the attack and gain Advantage retroactively.",
+      "metadata": "1 Tier 1 Attack"
+    },
+    {
+      "id":24,
+      "name": "Encumbered",
+      "type": "Movement",
+      "category": "Mythic",
+      "cost": 0,
+      "max": 0,
+      "effect": "Gain 10 Overhealth.\n\nThis card is Free to Play if you are wearing Medium Armor and are Proficient in Medium Armor.",
+      "metadata": "None"
+    },
+    {
+      "id":25,
+      "name": "Greater Move",
+      "type": "Movement",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "You can use a Tier 2 Movement Ability.",
+      "metadata": "1 Tier 2 Movement"
+    },
+    {
+      "id":26,
+      "name": "Greater Attack",
+      "type": "Attack",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "You can use a Tier 2 Attack Ability.",
+      "metadata": "1 Tier 2 Attack"
+    },
+    {
+      "id":27,
+      "name": "Greater Special",
+      "type": "Special",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "You can use a Tier 2 Special Ability.",
+      "metadata": "1 Tier 2 Special"
+    },
+    {
+      "id":28,
+      "name": "Quick Attack",
+      "type": "Attack",
+      "category": "Common",
+      "cost": 1,
+      "max": 4,
+      "effect": "You can use a Basic Attack.\n\nThis card is Free to Play.",
+      "metadata": "1 Basic Attack"
+    }
+  ]
+}
