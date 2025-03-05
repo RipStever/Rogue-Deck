@@ -1,0 +1,10 @@
+{
+  "reaction": "An ability that can be used outside of your turn in response to specific triggers.",
+  "dodge": "A defensive reaction that can be used against certain attacks to reduce damage or avoid it entirely.",
+  "block": "A defensive reaction that reduces incoming damage.",
+  "scene": "An effect that persists for the duration of the current scene or encounter.",
+  "combo": "An ability that allows you to use multiple actions in sequence.",
+  "tier 1": "The basic level of an ability with standard effects.",
+  "tier 2": "An enhanced version of an ability with stronger effects.",
+  "surge charge": "A resource that can be spent to power up abilities or trigger special effects."
+}

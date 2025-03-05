@@ -1,0 +1,64 @@
+name: card_game
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  uuid: ^4.2.1
+  
+  flutter:
+    sdk: flutter
+  
+  # UI Components
+  cupertino_icons: ^1.0.8
+  auto_size_text: ^3.0.0
+  dotted_border: ^2.0.0
+  fl_chart: ^0.65.0
+  
+  # State Management
+  flutter_riverpod: ^2.5.1
+  
+  # File System & Path Handling
+  path: ^1.8.3
+  path_provider: ^2.1.2  # Updated version
+  
+  # Data Handling
+  json_annotation: ^4.8.1  # Added for JSON serialization
+  freezed_annotation: ^2.4.1  # Added for immutable state
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+  # Build Runners
+  build_runner: ^2.4.8  # Added for code generation
+  json_serializable: ^6.7.1  # Added for JSON serialization
+  freezed: ^2.4.7  # Added for immutable state generation
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/defaultdeck.json
+    - assets/chancedeck.json
+    - assets/deckbuilder.json
+    - assets/LevelChart.json
+    - assets/abilities/Feats.json
+    - assets/abilities/Weapons.json
+    - assets/abilities/Talents.json
+    - assets/keywords/conditions.json
+    - assets/keywords/distances.json
+    - assets/keywords/sizes.json
+    - assets/keywords/headers.json
+    - assets/keywords/zones.json
+    - assets/keywords/cardtyps.json
+    - assets/keywords/aptitudes.json
+    - assets/stock characters/Ashe.json
+    - assets/stock characters/Moira.json
+    - assets/stock characters/Road Hog.json
+    - assets/stock characters/Tracer.json

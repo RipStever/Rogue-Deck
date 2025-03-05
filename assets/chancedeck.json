@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Blunder",
+        "qty": 2,
+        "type": "Miss",
+        "effect": "Special: If you draw this card, you MUST play it. \n\nThe Attack misses and the Director draws a card. \n-or-\nYou gain -2 Successes. \n\nReload: When you play this card as an Action, discard all Reload Cards from your hand."
+    },
+    {
+        "id": 2,
+        "name": "Miss",
+        "qty": 10,
+        "type": "Miss",
+        "effect": "The Attack misses. \n-or-\nYou gain 0 Successes. \n\nReload: When you play this card as an Action, discard all Reload Cards from your hand."
+    },
+    {
+        "id": 3,
+        "name": "Partial Hit",
+        "qty": 7,
+        "type": "Hit",
+        "effect": "The Attack does 50% Damage. \n-or-\nYou gain 1 Success, but the Director gains 1 Complication. \n\nReload: When you play this card as an Action, discard all Reload Cards from your hand."
+    },
+    {
+        "id": 4,
+        "name": "Hit",
+        "qty": 12,
+        "type": "Hit",
+        "effect": "The Attack hits. \n-or-\nYou gain 1 Success. \n\nReload: When you play this card as an Action, discard all Reload Cards from your hand."
+    },
+    {
+        "id": 5,
+        "name": "Hit+",
+        "qty": 5,
+        "type": "Hit",
+        "effect": "The Attack generates a point of Surge Charge. \n-or-\nYou gain 2 Successes. \n\nReload: When you play this card as an Action, discard all Reload Cards from your hand."
+    },
+    {
+        "id": 6,
+        "name": "Crit",
+        "qty": 4,
+        "type": "Crit",
+        "effect": "The Attack generates a point of Surge Charge and deals x2 damage. \n-or-\nYou gain 3 Successes. \n\nReload: When you play this card as an Action, discard all Reload Cards from your hand."
+    }
+]

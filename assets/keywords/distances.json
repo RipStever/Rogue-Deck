@@ -1,0 +1,8 @@
+{
+  "color": "#1E88E5",
+  "patterns": [
+    "\\d+m",
+    "\\d+ meters",
+    "\\d+ meter"
+  ]
+}
