@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'nc_feat_details_controller.dart';
-import 'package:card_game/NewContent/feats/nc_feat_service.dart';
+import 'package:card_game/newcontent/feats/nc_feat_service.dart';
 import 'package:card_game/newcontent/feats/nc_feat_info_form.dart';
 import 'package:card_game/newcontent/feats/nc_tier_basic_section.dart';
 import 'package:card_game/newcontent/feats/nc_tier_one_section.dart';

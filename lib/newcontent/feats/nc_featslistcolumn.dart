@@ -1,7 +1,7 @@
 // lib/newcontent/feats/FeatsListColumn.dart
 
 import 'package:flutter/material.dart';
-import 'package:card_game/NewContent/feats/nc_feat_service.dart';
+import 'package:card_game/newcontent/feats/nc_feat_service.dart';
 
 class FeatsListColumn extends StatefulWidget {
   final Function(String)? onFeatSelected;
