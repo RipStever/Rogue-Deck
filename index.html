@@ -20,29 +20,26 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "2653523171";
+    const serviceWorkerVersion = "902320814";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
   <script>
-  window.addEventListener('load', function(ev) {
-    // Download main.dart.js
-    // Fix the _flutter reference error
-    var flutter = window.flutter || {};
-    flutter.loader = flutter.loader || {};
-    flutter.loader.loadEntrypoint({
-      serviceWorker: {
-        serviceWorkerVersion: serviceWorkerVersion,
-      },
-      onEntrypointLoaded: function(engineInitializer) {
-        engineInitializer.initializeEngine().then(function(appRunner) {
-          appRunner.runApp();
-        });
-      }
-    });
+window.addEventListener('load', function(ev) {
+  // Download main.dart.js
+  _flutter.loader.loadEntrypoint({
+    serviceWorker: {
+      serviceWorkerVersion: serviceWorkerVersion,
+    },
+    onEntrypointLoaded: function(engineInitializer) {
+      engineInitializer.initializeEngine().then(function(appRunner) {
+        appRunner.runApp();
+      });
+    }
   });
-  </script>
+});
+</script>
 </body>
 </html>
